@@ -1,0 +1,16 @@
+# Project Euler Nine.
+
+#Pythogorean triplets 
+
+c = int(input("Enter a number: ")
+
+a = 1
+b = 1
+
+for i in range(0, c):
+  for j in range (0, c):
+    if(i*i + j*j == c*c):
+      a = i
+      b = j
+ 
+print(a*b*c)
